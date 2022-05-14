@@ -404,10 +404,10 @@ h2 {
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: stretch;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
-.videoAmbiental iframe {
+.videoAmbiental__iframe {
     object-fit: contain;
 
 }
@@ -420,7 +420,7 @@ h2 {
         gap: 5px;
     }
 
-    .videoAmbiental iframe {
+    .videoAmbiental__iframe {
         grid-column:auto;
         grid-row-start: 1;
         grid-row-end:3;
@@ -436,8 +436,8 @@ h2 {
 .videoAmbiental__text {
     font-family: 'Red Rose', cursive;
     font-size: 1.5em;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: 10px;
     color: whitesmoke;
 }
